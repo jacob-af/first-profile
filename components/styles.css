@@ -1,0 +1,11 @@
+section {
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 1em;
+    
+}
+
+.img-fluid {
+    width: 100%;
+}

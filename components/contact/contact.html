@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="./components/styles.css">
-    <!-- Latest compiled and minified CSS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Jacob Feitler: Beverage Pro</title>
-  </head>
 
-  <body class="container">
-    <header class="row">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Jacob Feitler</a>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../gallery/gallery.html">Gallery</a></li>
-                <li class="active"><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-        </header>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../styles.css">
+  <link rel="stylesheet" type="text/css" href="./components/contact/contact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Jacob Feitler: Beverage Pro</title>
+</head>
+
+<body class="container">
+  <header class="row">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Jacob Feitler</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../gallery/gallery.html">Gallery</a></li>
+          <li class="active"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <h3>Contact Form</h3>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</body>
+
+</html>

@@ -1,11 +1,24 @@
+.navbar-brand {
+    animation: pulse 5s 1;
+}
+
+
 .container {
     background-color: black;
     color: white;
     height: auto;
     padding: 1em;
-
 }
 
 .img-fluid {
     width: 100%;
 }
+
+@keyframes pulse {
+    0% {
+      color: #292929;
+    }
+    100% {
+      color: #ffffff;
+    }
+  }

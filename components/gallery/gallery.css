@@ -1,3 +1,9 @@
 .gal-img {
-    width: 200px;
+    width: 100%;
+    
+}
+
+.container p,
+.container h2 {
+    text-align: center;
 }

@@ -2,12 +2,14 @@
     animation: pulse 5s 1;
 }
 
+li a {
+  text-align: right;
+}
 
 .container {
-    background-color: black;
+    background-color: #222228;
     color: white;
-    height: auto;
-    padding: 1em;
+    animation: shift 3s infinite;
 }
 
 .img-fluid {
@@ -21,4 +23,10 @@
     100% {
       color: #ffffff;
     }
+  }
+
+  @keyframes shift {
+    0%   {background-color:#222228;}
+  75%  {background-color: #222222;}
+  100% {background-color: #222228;}
   }

@@ -1,5 +1,5 @@
-.navbar-brand {
-    animation: pulse 5s 1;
+html {
+  background-image: url("./Images/background-abstract-houndstooth.jpg");
 }
 
 li a {
@@ -7,26 +7,36 @@ li a {
 }
 
 .container {
-    background-color: #222228;
-    color: white;
-    animation: shift 3s infinite;
+  background-color: #222228;
+  color: white;
+  animation: shift 3s infinite;
+  width: 100%;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  padding: 20px;
 }
 
-.img-fluid {
-    width: 100%;
+.navbar-brand {
+  animation: pulse 5s 1;
 }
 
 @keyframes pulse {
-    0% {
-      color: #292929;
-    }
-    100% {
-      color: #ffffff;
-    }
+  0% {
+    color: #292929;
   }
+  100% {
+    color: #ffffff;
+  }
+}
 
-  @keyframes shift {
-    0%   {background-color:#222228;}
-  75%  {background-color: #222222;}
-  100% {background-color: #222228;}
+@keyframes shift {
+  0% {
+    background-color: #222228;
   }
+  75% {
+    background-color: #222222;
+  }
+  100% {
+    background-color: #222228;
+  }
+}

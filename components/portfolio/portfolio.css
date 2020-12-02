@@ -1,9 +1,12 @@
 .gal-img {
-    width: 350px;
-    
+    width: 100%;
 }
 
-.container p,
-.container h2 {
+.imgBox {
+    width: 350px;
+    padding: 10px;
+}
+
+.container p, .container h2 {
     text-align: center;
 }

@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Special+Elite&display=swap');
-html {
-  background-color: #000000;
+
+header, 
+footer, 
+.container {
+  background-color: #222228;
+  color: white;
+}
+
+body {
+  color: white;
   background-image: url("./images/background-abstract-houndstooth.jpg");
 }
 
 h2 {
   font-family: "Pinyon Script";
   font-size: 32px;
-  padding-top: 10px;
 }
 
 li a {
@@ -15,16 +22,13 @@ li a {
 }
 
 .container {
-  background-color: #222228;
   color: white;
   animation: shift 3s infinite;
-  width: 100%;
-  border-radius: 5px;
-  padding: 20px;
+  width: 95%;
 }
 
-section img {
-  width: 350px;
+div img {
+  width: 300px;
 }
 
 .navbar-brand {
@@ -39,17 +43,5 @@ section img {
   }
   100% {
     color: #ffffff;
-  }
-}
-
-@keyframes shift {
-  0% {
-    background-color: #222228;
-  }
-  75% {
-    background-color: #222222;
-  }
-  100% {
-    background-color: #222228;
   }
 }

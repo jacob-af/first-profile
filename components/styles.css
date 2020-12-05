@@ -25,6 +25,7 @@ li a {
   color: white;
   animation: shift 3s infinite;
   width: 95%;
+  border-radius: 10px;
 }
 
 div img {

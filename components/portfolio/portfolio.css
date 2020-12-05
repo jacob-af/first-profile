@@ -3,7 +3,7 @@
 }
 
 .imgBox {
-    width: 280px;
+    max-width: 3500px;
     padding: 20px;
     background-color: #000000;
     margin: 20px;

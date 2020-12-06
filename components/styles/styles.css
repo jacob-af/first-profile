@@ -28,10 +28,6 @@ li a {
   border-radius: 10px;
 }
 
-div img {
-  width: 300px;
-}
-
 .navbar-brand {
   animation: pulse 5s 1;
   font-size: 32px;

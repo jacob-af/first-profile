@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Special+Elite&display=swap');
-
-header, 
-footer, 
-.container {
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pinyon+Script&family=Special+Elite&display=swap');
+header, footer, .container {
   background-color: #222228;
-  color: white;
 }
 
 body {
@@ -12,27 +8,33 @@ body {
   background-image: url("../images/background-abstract-houndstooth.jpg");
 }
 
-h2 {
-  font-family: "Pinyon Script";
-  font-size: 32px;
-}
-
-li a {
-  text-align: right;
-}
-
-.container {
-  color: white;
-  animation: shift 3s infinite;
-  width: 95%;
-  border-radius: 10px;
-}
-
 .navbar-brand {
   animation: pulse 5s 1;
   font-size: 32px;
   font-family: "Special Elite", "Helvetica";
 }
+
+h1 {
+  font-family: "Pinyon Script";
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Pinyon Script";
+  font-size: 32px;
+}
+
+p,
+li a {
+  font-family: 'JetBrains Mono';
+}
+
+.container {
+  width: 95%;
+  border-radius: 10px;
+}
+
+
 
 @keyframes pulse {
   0% {

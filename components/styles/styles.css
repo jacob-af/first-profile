@@ -6,6 +6,7 @@ header, footer, .container {
 body {
   color: white;
   background-image: url("../images/background-abstract-houndstooth.jpg");
+  background-size: 100% auto;
 }
 
 .navbar-brand {
@@ -26,12 +27,25 @@ h2 {
 
 p,
 li a {
+  font-size: 16px;
   font-family: 'JetBrains Mono';
 }
 
 .container {
   width: 95%;
   border-radius: 10px;
+}
+
+footer {
+  display: inline-block;
+}
+
+.fa {
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 @keyframes pulse {

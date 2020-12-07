@@ -40,6 +40,8 @@ Responsive design should be viewable on any platform.  Navbar dropdown is applie
 
 ![contact page at 400px with nav bar dropdown](./components/images/screenshots/contact-400.png)             ![Submit page at 400px](./components/images/screenshots/submit-400.png)
 
+![profile page at 992px](./components/images/screenshots/profile-992.png)
+
 ## Credits
 
 Much of the work for this website was done referencing documentation on[Bootstrap](http://getbootstrap.com), [w3 Schools](http://w3schools.com), as well as [Codecademy](http://codecademy.com).  

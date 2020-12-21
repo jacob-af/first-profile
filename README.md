@@ -48,4 +48,4 @@ Much of the work for this website was done referencing documentation on[Bootstra
 
 ## License
 
-This website is licensed under the MIT license copywrite 2020
+This website is licensed under the MIT license, copyright 2020
